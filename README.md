@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# React Blog with Router
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the React Blog with Router project! This project is a simple blog application built using React, React Router, and Axios for HTTP requests. It allows users to view posts, create new posts, edit existing posts, and delete posts.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **View Posts:** Users can view all posts on the home page.
+- **Create New Post:** Users can create a new post with a title and body.
+- **Edit Post:** Users can edit existing posts, updating their title and body.
+- **Delete Post:** Users can delete posts they no longer wish to keep.
+- **Search Posts:** Users can search for posts by title or body.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd React_Blog_Router
+   ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Start the development server:
+    ```bash
+    npm start
+    ```
 
-### `npm test`
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Open another terminal window and navigate to the project directory again:
+    ```bash
+    cd React_Blog_Router
+    ```
 
-### `npm run build`
+6. Start the JSON Server:
+    ```bash
+    npx json-server -p 3500 -w data/db.json
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   This will run the JSON Server on port 3500 and watch the `db.json` file for changes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project structure is organized as follows:
 
-### `npm run eject`
+- **src/.js** Contains React components used throughout the application.
+- **src/context:** Contains the context provider for managing state across components.
+- **src/hooks:** Contains custom React hooks used for specific functionalities.
+- **src/api:** Contains Axios instance for making HTTP requests.
+- **db.json:** Contains the mock data for the application, used by the JSON server.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React:** JavaScript library for building user interfaces.
+- **React Router:** Declarative routing for React applications.
+- **Axios:** Promise-based HTTP client for making requests to the server.
+- **JSON Server:** Mock server for quickly prototyping RESTful APIs.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "My First Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
+    },
+    {
+      "id": "2",
+      "title": "My 2nd Post",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio! Modi nesciunt excepturi corrupti atque blanditiis quo nobis, non optio quae possimus illum exercitationem ipsa!"
+    },
+    {
+      "id": "3",
+      "title": "testing the update part of crud operation",
+      "datetime": "May 06, 2024 4:38:29 PM",
+      "body": "put method of crud on trial :) :)"
+    },
+    {
+      "id": "31",
+      "title": "post 5",
+      "datetime": "May 10, 2024 7:50:16 PM",
+      "body": "checking completed"
+    },
+    {
+      "id": "311",
+      "title": "changed the 6th post",
+      "datetime": "May 13, 2024 11:18:48 AM",
+      "body": "refactoring being tested and worked"
+    }
+  ]
+}
